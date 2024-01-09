@@ -22,6 +22,8 @@ El objetivo principal de este proyecto es desarrollar un sistema de recomendaci�
 
 Realizamos un proceso de ETL (Extracción, Transformación y Carga) en el que extrajimos datos de diferentes [Datasets](https://drive.google.com/drive/folders/1cROSSeOnG7hJp1DGdjZV7GS8qWgOfj3E?usp=drive_link), los transformamos según las necesidades del proyecto y los cargamos en un destino final para su análisis y uso posterior.
 
+La herramienta utilizada fue: Python y Pandas
+
 ### EDA
 
 Se realizó un EDA (Análisis Exploratorio de Datos) para investigar las relaciones entre las variables del dataset y descubrir patrones. Se utilizaron técnicas de visualización y se generaron gráficas. Las herramientas utilizadas fueron: Numpy, Pandas, Matplotlib, Seaborn y Wordcloud.
@@ -41,3 +43,9 @@ Se desarrolló una API utilizando el framework FastAPI para disponibilizar los d
 - **def sentiment_analysis( año : int )**: Según el año de lanzamiento, devuelve una lista con la cantidad de registros de reseñas de usuarios que se encuentren categorizados con un análisis de sentimiento.
 
 Las herramientas utilizadas fueron: Uvicorn, Render, FastAPI
+
+## Modelo de Machine Learning
+
+Realizamos un modelo de Machine Learning para generar recomendaciones de juegos, utilizando algoritmos y técnicas que analizaron patrones en los datos de usuarios y juegos, con el fin de brindar recomendaciones personalizadas y precisas basadas en los gustos y preferencias de cada usuario.
+
+La herramienta utilizada fue: Scikit-Learn
