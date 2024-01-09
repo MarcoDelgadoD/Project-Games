@@ -18,5 +18,5 @@ El objetivo principal de este proyecto es desarrollar un sistema de recomendaci√
 
 ## Tareas Realizadas
 
-
+[Google Drive](https://drive.google.com/drive/folders/1ReslBNJ7eIbBlpSpnzHAH6m7o69DNBEX?usp=drive_link)
 
