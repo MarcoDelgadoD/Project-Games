@@ -20,13 +20,15 @@ El objetivo principal de este proyecto es desarrollar un sistema de recomendaci�
 
 ### ETL 
 
-Realizamos un proceso de ETL (Extracción, Transformación y Carga) en el que extrajimos datos de diferentes [Datasets](https://drive.google.com/drive/folders/1cROSSeOnG7hJp1DGdjZV7GS8qWgOfj3E?usp=drive_link), los transformamos según las necesidades del proyecto y los cargamos en un destino final para su análisis y uso posterior.
+Realizamos un proceso de ETL (Extracción, Transformación y Carga) en el que extrajimos datos de diferentes archivos, los transformamos según las necesidades del proyecto y los cargamos en un destino final para su análisis y uso posterior.
 
 La herramienta utilizada fue: Python y Pandas
 
 ### EDA
 
-Se realizó un EDA (Análisis Exploratorio de Datos) para investigar las relaciones entre las variables del dataset y descubrir patrones. Se utilizaron técnicas de visualización y se generaron gráficas. Las herramientas utilizadas fueron: Numpy, Pandas, Matplotlib, Seaborn y Wordcloud.
+Se realizó un EDA (Análisis Exploratorio de Datos) para investigar las relaciones entre las variables del dataset y descubrir patrones. Se utilizaron técnicas de visualización y se generaron gráficas.
+
+Las herramientas utilizadas fueron: Numpy, Pandas, Matplotlib, Seaborn y Wordcloud.
 
 ## Deployment de la API
 
@@ -49,3 +51,14 @@ Las herramientas utilizadas fueron: Uvicorn, Render, FastAPI
 Realizamos un modelo de Machine Learning para generar recomendaciones de juegos, utilizando algoritmos y técnicas que analizaron patrones en los datos de usuarios y juegos, con el fin de brindar recomendaciones personalizadas y precisas basadas en los gustos y preferencias de cada usuario.
 
 La herramienta utilizada fue: Scikit-Learn
+
+## Estructura del Repositorio
+
+- **[Archivos_API]()**: Contiene archivos en formato CSV con datos limpios y filtrados para ser utilizados en las funciones.
+- **Archivos_Limpios**: Contene los archivos limpios en formato CSV después de haber realizado ETL a los Datasets en formato JSON. 
+- **Archivos_ML**: Contiene el archivo en formato CSV después de haber aplicado el modelo de Machine Learning correspondiente.
+- **Datasets**: Contiene los archivos en formato JSON iniciales.
+- **Notebooks**: Contiene todos los notebook donde se trabajó ETL, EDA, el modelo de Machine Learning y las diferentes consultas para obtener los Archivos_Limpios y los Archivos_API.
+- **assets**: Contiene una copia de los CSV contenidos en Archivos_API necesarios para realizar las funciones (script functions.py) y la creación de la API (script main.py).
+
+
