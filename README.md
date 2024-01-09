@@ -18,5 +18,5 @@ El objetivo principal de este proyecto es desarrollar un sistema de recomendaci�
 
 ## Tareas Realizadas
 
-[Google Drive](https://drive.google.com/drive/folders/1ReslBNJ7eIbBlpSpnzHAH6m7o69DNBEX?usp=drive_link)
+Realizamos un proceso de ETL (Extracción, Transformación y Carga) en el que extrajimos datos de diferentes [Datasets](https://drive.google.com/drive/folders/1cROSSeOnG7hJp1DGdjZV7GS8qWgOfj3E?usp=drive_link), los transformamos según las necesidades del proyecto y los cargamos en un destino final para su análisis y uso posterior.
 
