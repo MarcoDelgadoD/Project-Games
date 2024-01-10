@@ -59,8 +59,8 @@ La herramienta utilizada fue: Scikit-Learn
 - **[Archivos_ML](https://drive.google.com/drive/folders/1FWvK2CkcoQ5Z6MtDhtOPDsAVl0_Y1QDa?usp=drive_link)**: Contiene el archivo en formato CSV después de haber aplicado el modelo de Machine Learning correspondiente.
 - **[Datasets](https://drive.google.com/drive/folders/1cROSSeOnG7hJp1DGdjZV7GS8qWgOfj3E?usp=drive_link)**: Contiene los archivos en formato JSON iniciales.
 - **Notebooks**: Contiene todos los notebook donde se trabajó ETL, EDA, el modelo de Machine Learning y las diferentes consultas para obtener los Archivos_Limpios y los Archivos_API.
-- **assets**: Contiene una copia de los CSV contenidos en Archivos_API necesarios para realizar las funciones (script functions.py) y la creación de la API (script main.py).
 
 ## Enlaces de Utilidad
 
 - [Video explicativo](https://drive.google.com/file/d/1iAI0YA74lnFY1hhJ4Z9AOGSpc63NeqF7/view?usp=drive_link)
+- [Render](https://fastapi-m27m.onrender.com/docs)
